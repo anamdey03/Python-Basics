@@ -1,3 +1,4 @@
+# Dictionary has key value pairs and it's mutable in nature. We use the curly brackets to declare a dictionary
 
 month_conversions = {
     "Jan": "January",
@@ -14,6 +15,6 @@ month_conversions = {
     "Dec": "December"
 }
 
-print(month_conversions["Jan"])
+print(month_conversions["Feb"])
 print(month_conversions.get("Nov"))
 print(month_conversions.get("Luv", "Not a valid key"))
